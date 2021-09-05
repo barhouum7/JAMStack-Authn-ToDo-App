@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NavBar() {
     return (
-        <nav className="flex justify-between">
+        <nav className="flex justify-between items-center py-4">
             <p className="text-2xl font-bold text-gray-800">My ToDos</p>
             <div className="flex">
                 <a href="/api/logout" 

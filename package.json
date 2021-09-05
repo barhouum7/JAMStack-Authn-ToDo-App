@@ -2,10 +2,12 @@
   "name": "jamstack-authn-todo-app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
